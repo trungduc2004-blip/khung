@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Welcome</title>
+    <meta name="description" content="Personal portfolio website showcasing my skills, projects, and experience.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    
+    <header id="header">
+        <nav class="navbar">
+            <a href="#home" class="logo">Port<span>folio.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content hidden">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="name">Your Name</h1>
+                <h2 class="typing-text">I am a <span class="typed-cursor"></span></h2>
+                <p class="description">I build interactive, beautiful, and user-friendly digital experiences. Let's create something amazing together.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="hero-image hidden">
+                <div class="image-wrapper">
+                    <!-- Placeholder image -->
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Profile Photo">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <h2 class="section-title hidden">About <span>Me</span></h2>
+            <div class="about-container">
+                <div class="about-text hidden">
+                    <h3>Get to know me</h3>
+                    <p>I am a passionate developer with a strong focus on creating high-quality, impactful software. I enjoy tackling complex problems and turning them into simple, elegant solutions.</p>
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source, or enjoying a good book.</p>
+                    <div class="stats">
+                        <div class="stat-item">
+                            <span class="stat-num">3+</span>
+                            <span class="stat-desc">Years Experience</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">20+</span>
+                            <span class="stat-desc">Projects Completed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">5+</span>
+                            <span class="stat-desc">Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills">
+            <h2 class="section-title hidden">My <span>Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card hidden">
+                    <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                    <h3>Frontend</h3>
+                    <p>HTML5, CSS3, JavaScript, React, Vue</p>
+                </div>
+                <div class="skill-card hidden">
+                    <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                    <h3>Backend</h3>
+                    <p>Node.js, Express, Python, Django</p>
+                </div>
+                <div class="skill-card hidden">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>Database</h3>
+                    <p>MongoDB, PostgreSQL, MySQL, Redis</p>
+                </div>
+                <div class="skill-card hidden">
+                    <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Tools</h3>
+                    <p>Git, Docker, AWS, Figma</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <h2 class="section-title hidden">Featured <span>Projects</span></h2>
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card hidden">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Project 1">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce Platform</h3>
+                        <p>A full-stack e-commerce solution with payment integration and admin dashboard.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card hidden">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Project 2">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Data Visualization Dashboard</h3>
+                        <p>Interactive dashboard for analyzing complex datasets in real-time.</p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>D3.js</span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card hidden">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Project 3">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>AI Chat Application</h3>
+                        <p>Real-time chat app integrating OpenAI's GPT models for smart responses.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Socket.io</span>
+                            <span>OpenAI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2 class="section-title hidden">Get In <span>Touch</span></h2>
+            <div class="contact-container hidden">
+                <div class="contact-info">
+                    <h3>Let's Talk</h3>
+                    <p>I'm currently open for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>hello@yourname.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Seoul, South Korea</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('Message sent!');">
+                    <div class="input-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Your Name. Built with ❤️ and Vanilla JS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
